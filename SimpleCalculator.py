@@ -35,7 +35,7 @@ def mul(a,b):
     print("Multiplication is: ",a*b)
     
 while True:
- print("The Options are:\n   1:Rectangle  2:Circle   3:Square\n   4:Addition   5:Subtract 6:Divide  7:Multiply  \n   0:Exit\n")
+ print("Choose from the options listed below:\n   1:Rectangle  2:Circle   3:Square\n   4:Addition   5:Subtract 6:Divide  7:Multiply  \n   0:Exit\n")
  opt=int(input("Choose: "))
  if opt==1:
      rectangle()
@@ -52,7 +52,7 @@ while True:
  elif opt==7:
      mul()
  elif opt==0:
-     print("Exit initiated")
+     print("Exit initiated.")
      break
  else:
     c='Invalid'
